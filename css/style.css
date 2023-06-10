@@ -1,0 +1,368 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,200;0,300;0,400;0,900;1,400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    background-color: #f1f1f1;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.titulo{
+    font-family: Raleway;
+    font-weight: 400;
+    font-size: 48px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#cabecalho{
+    background-color: #c0c0c0;
+    margin-bottom: 30px;
+}
+
+#cabecalho .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#cabecalho #logo{
+    width: 60px;
+}
+
+#cabecalho #menu ul{
+    display: flex;
+    list-style: none;
+}
+
+#cabecalho #menu a{
+    display: block;
+    padding: 20px;
+    text-decoration: none;
+    color: #000;
+    font-weight: 600;
+}
+
+#cabecalho #menu a:hover{
+    background-color: #9b9a9a;
+}
+
+#inicio .container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+    margin-bottom: 80px;
+}
+
+#inicio .container p{
+    font-size: 15px;
+    padding-bottom: 15px;
+}
+
+#inicio .container h3{
+    margin-top: 10px;
+}
+
+#inicio .container h4{
+    font-weight: 500;
+}
+
+#inicio .titulo {
+    font-size: 38px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#inicio .container div img{
+    width: 100%;
+}
+
+#inicio .container div img:hover{
+    transform: scale(1.1);
+    transition: all 0.3s linear;
+}
+
+#inicio .but-comprar{
+    display: block;
+    background-color: #000;
+    text-decoration: none;
+    color: #fff;
+    text-align: center;
+    padding: 10px 20px;
+    border-radius: 20px;
+    margin-top: 15px;
+    transition: all 0.3s linear;
+}
+
+#inicio .but-comprar:hover{
+    background-color: #666;
+}
+
+#historia{
+    padding-top: 40px;
+    padding-bottom: 100px;
+}
+
+#historia .titulo{
+    font-size: 40px;
+}
+
+#historia .container img{
+    width: 500px;
+    float: left;
+    margin-right: 30px;
+    border-radius: 30px;
+}
+
+#historia p{
+    text-align: justify;
+    margin-bottom: 20px;
+    display: flex;
+}
+
+#linhatemporal{
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+#linhatemporal .titulo{
+    margin-top: 60px;
+    font-family: Raleway;
+    font-weight: 400;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#linhatemporal .container div img{
+    width: 40%;
+    border-radius: 30px;
+    margin-bottom: 30px;
+    margin-top: 30px;  
+    
+}
+
+#linhatemporal .container{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    align-items: center;
+    margin-bottom: -60px;
+
+}
+
+  
+#linhatemporal .container p{
+    text-align: justify;
+    margin-bottom: 10px;
+    display: flex;
+}
+
+#linhatemporal .container h1{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+#linhatemporal .container h2{
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+  
+
+#masculino .titulo {
+    font-size: 38px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#masculino .container p{
+    font-size: 15px;
+    padding-bottom: 15px;
+}
+
+#masculino .container h3{
+    margin-top: 10px;
+}
+
+#masculino .container h4{
+    font-weight: 500;
+}
+
+#masculino .container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+    margin-bottom: 80px;
+}
+
+#masculino .container div img{
+    width: 100%;
+}
+
+#masculino .container div img:hover{
+    transform: scale(1.1);
+    transition: all 0.3s linear;
+}
+
+#masculino .but-comprar{
+    display: block;
+    background-color: #000;
+    text-decoration: none;
+    color: #fff;
+    text-align: center;
+    padding: 10px 20px;
+    border-radius: 20px;
+    margin-top: 15px;
+    transition: all 0.3s linear;
+}
+
+#masculino .but-comprar:hover{
+    background-color: #666;
+}
+
+#feminino .titulo{
+    font-size: 38px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#feminino .container p{
+    font-size: 15px;
+    padding-bottom: 15px;
+}
+
+#feminino .container h3{
+    margin-top: 10px;
+}
+
+#feminino .container h4{
+    font-weight: 500;
+}
+
+#feminino .container div img{
+    width: 100%;
+}
+
+#feminino .container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+    margin-bottom: 80px;
+}
+
+#feminino .container div img:hover{
+    transform: scale(1.1);
+    transition: all 0.3s linear;
+}
+
+#feminino .but-comprar{
+    display: block;
+    background-color: #000;
+    text-decoration: none;
+    color: #fff;
+    text-align: center;
+    padding: 10px 20px;
+    border-radius: 20px;
+    margin-top: 15px;
+    transition: all 0.3s linear;
+}
+
+#feminino .but-comprar:hover{
+    background-color: #666;
+}
+
+#infantil .titulo{
+    font-size: 38px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#infantil .container p{
+    font-size: 15px;
+    padding-bottom: 15px;
+}
+
+#infantil .container h3{
+    margin-top: 10px;
+}
+
+#infantil .container h4{
+    font-weight: 500;
+}
+
+#infantil .container div img{
+    width: 100%;
+}
+
+#infantil .container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+    margin-bottom: 80px;
+}
+
+#infantil .container div img:hover{
+    transform: scale(1.1);
+    transition: all 0.3s linear;
+}
+
+#infantil .but-comprar{
+    display: block;
+    background-color: #000;
+    text-decoration: none;
+    color: #fff;
+    text-align: center;
+    padding: 10px 20px;
+    border-radius: 20px;
+    margin-top: 15px;
+    transition: all 0.3s linear;
+}
+
+#infantil .but-comprar:hover{
+    background-color: #666;
+}
+
+
+
+#videos .container{
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    margin-bottom: 80px;
+}
+
+#videos .titulo {
+    font-size: 38px;
+}
+
+#videos iframe{
+    width: 100%;
+}
+
+#rodape {
+    display: inline-block;
+    background-color: #000;
+    padding: 30px;
+    width: 100%;
+    color: #666;
+    text-align: center;
+    font-size: 15px;
+}
+
+#rodape a {
+    color: #06C;
+    text-decoration: none;
+}
+
+#rodape a:hover {
+    text-decoration: underline;
+}
